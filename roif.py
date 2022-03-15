@@ -18,19 +18,19 @@ P = ('\x1b[1;97m')
 ___logo___ = (f"""{H}
 
 {K}[{P}•{K}]{P}——————————————————————————————
-{H}    \ _ \  \|-||---
-{B}    /   / - | ||--
-{B}    |_|_\__/|-|| 
+{H}    \ _ \  \|| |___
+{B}    /   / - || |__
+{B}    |_|_\__/|| | 
 {K}[{P}•{K}]{P}——————————————————————————————
 """)
 # Login Cookie
 def ___login___():
     os.system('clear')
     print(___logo___)
-    print(f"{B}[{P}•{B}]{P} Masukan Cookie Instagram, Sebaiknya Jangan Gunakan Akun Yang Baru Di Buat, Kalau Anda Belum Mengetahui Cara Mendapatkan Cookie Instagram Ketik {M}[{P}Open{M}]{P}\n")
+    print(f"{B}[{P}•{B}]{P} copas ken cokie ig na . mun t apal cara na ketik [open]
     ___cookie = input(f"{H}[{P}?{H}]{P} Cookie :{K} ")
     if ___cookie in ['open', 'Open', 'OPEN']:
-        print(f"{K}[{P}!{K}]{P} Anda Akan Diarahkan Ke Youtube, Silahkan Ikuti Cara Untuk Mendapatkan Cookie...");sleep(3);os.system('xdg-open https://youtu.be/u17ZQgSs3aY');exit()
+        print(f"{K}[{P}!{K}]{P} tah tempo be di youtub hoream ngajelaskena cape ngetik...");sleep(3);os.system('xdg-open https://youtube.com');exit()
     elif ___cookie in ['', ' ']:
         exit(f"{P}[{M}!{P}]{M} Jangan Kosong")
     else:
@@ -74,17 +74,17 @@ def ___menu___():
         print(f"{P}[{M}!{P}]{M} Cookie Invalid");os.system('rm -rf Data/coki.txt && rm -rf Data/user.txt');sleep(3);___login___()
     except (IOError):
         exit(f"{P}[{K}!{P}]{K} Koneksi Error")
-    print(f"{B}[{P}1{B}]{P} Dump Username Dari Mengikuti")
-    print(f"{B}[{P}2{B}]{P} Dump Username Dari Pengikut")
-    print(f"{B}[{P}3{B}]{P} Dump Username Dari Activity")
-    print(f"{B}[{P}4{B}]{P} Dump Username Dari Beranda")
-    print(f"{B}[{P}5{B}]{P} Dump Username Dari Hastag")
-    print(f"{B}[{P}6{B}]{P} Dump Username Dari Search")
-    print(f"{B}[{P}7{B}]{P} Dump Username Dari Query")
-    print(f"{B}[{P}8{B}]{P} Dump User Dari Email")
-    print(f"{B}[{P}9{B}]{P} Mulai Crack {P}[{H}Fast{P}]{H}")
-    print(f"{B}[{P}0{B}]{P} Lihat Hasil Crack")
-    print(f"{B}[{P}A{B}]{P} Keluar {P}[{M}Exit{P}]{M}\n")
+    print(f"{B}[{P}1{B}]{P} nyokot ti Mengikuti")
+    print(f"{B}[{P}2{B}]{P} nyokot ti Pengikut")
+    print(f"{B}[{P}3{B}]{P} nyokot ti Activity")
+    print(f"{B}[{P}4{B}]{P} nyokot ti Beranda")
+    print(f"{B}[{P}5{B}]{P} nyokot ti Hastag")
+    print(f"{B}[{P}6{B}]{P} nyokot ti Search")
+    print(f"{B}[{P}7{B}]{P} nyokot ti Query")
+    print(f"{B}[{P}8{B}]{P} nyokot ti Email")
+    print(f"{B}[{P}9{B}]{P} start Crack {P}[{H}Fast{P}]{H}")
+    print(f"{B}[{P}0{B}]{P} nempo Hasil Crack")
+    print(f"{B}[{P}A{B}]{P} Kaluar {P}[{M}Exit{P}]{M}\n")
     ___pilih = input(f"{H}[{P}?{H}]{P} Pilih :{K} ")
     if ___pilih in ['1','01']:
         ___mengikuti___()
