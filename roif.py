@@ -27,7 +27,7 @@ ___logo___ = (f"""{H}
 def ___login___():
     os.system('clear')
     print(___logo___)
-    print(f"{B}[{P}•{B}]{P} copas ken cokie ig na . mun t apal cara na ketik [open]
+    print(f"{B}[{P}•{B}]{P} copasken cokie mun t bisa carana ketik  {M}[{P}Open{M}]{P}\n")
     ___cookie = input(f"{H}[{P}?{H}]{P} Cookie :{K} ")
     if ___cookie in ['open', 'Open', 'OPEN']:
         print(f"{K}[{P}!{K}]{P} tah tempo be di youtub hoream ngajelaskena cape ngetik...");sleep(3);os.system('xdg-open https://youtube.com');exit()
